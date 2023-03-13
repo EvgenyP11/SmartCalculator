@@ -1,0 +1,23 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: "fun removing(currentMap: MutableMap<Int, String>, value: String): MutableMap<Int,\
+    \ String> {\n    // Write your code here. Do not print the result of the function!\
+    \ \n\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15881#comment
+status: Failed
+feedback:
+  message: "Failed. Runtime error\n\nError:\nException in thread \"main\" java.util.ConcurrentModificationException\n\
+    \tat java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:719)\n\
+    \tat java.base/java.util.LinkedHashMap$LinkedEntryIterator.next(LinkedHashMap.java:751)\n\
+    \tat java.base/java.util.LinkedHashMap$LinkedEntryIterator.next(LinkedHashMap.java:749)\n\
+    \tat MainKt.removing(main.kt:2)\n\tat MainKt.main(main.kt:18)\n\tat MainKt.main(main.kt)\n\
+    \tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\
+    \tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\
+    \tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\
+    \tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.jetbrains.kotlin.runner.AbstractRunner.run(runners.kt:70)\n\
+    \tat org.jetbrains.kotlin.runner.Main.run(Main.kt:188)\n\tat org.jetbrains.kotlin.runner.Main.main(Main.kt:198)\n"
+  time: Sun, 12 Mar 2023 15:12:28 UTC
+record: -1
